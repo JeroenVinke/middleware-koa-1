@@ -50,6 +50,7 @@
     "cut-release": "cross-env npm run changelog && npm run build && npm run doc"
   },
   "dependencies": {
+    "aurelia-ssr-engine": "github:JeroenVinke/ssr-engine#build",
     "koa": "^2.3.0"
   },
   "devDependencies": {
